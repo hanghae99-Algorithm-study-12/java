@@ -7,16 +7,20 @@ Chapter 01. 반복
 Chapter 02-1. 배열
 
 연습 문제 09번. y년 m월 d일의 그 해 남은 일 수(12월 31일이면 0, 12월 30일이면 1)를 구하는 아래 메서드를 작성하세요.
-`static int leftDayOfYear(int y, int m, int d)`
+```
+static int leftDayOfYear(int y, int m, int d)
+```
 
 Chapter 02-2. 클래스
 
 연습 문제 11번. 
-`class YMD {
+```
+class YMD {
   int y; 
   int m; 
   int d;
-}`
+}
+```
 
 위 처럼 서기 년월일을 필드로 갖는 클래스를 만드세요. 다음과 같이 생성자(constructor)와 메서드를 정의해야 합니다.
 - 생성자 (주어진 날짜로 설정) YMD(int y, int m, int d)
