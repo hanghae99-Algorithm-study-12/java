@@ -1,5 +1,19 @@
 # JAVA Study📖
 
+<table>
+    <tr>
+         <th colspan=5>💻🙎‍♂스터디원</th>
+    </tr>
+    <tr>
+        <td><a href='https://github.com/jeonbar2'>강전호</a></td>
+        <td><a href='https://github.com/HoduUlmu'>김재훈</a></td>
+        <td><a href='https://github.com/Shinnybest'>김효신</a></td>
+        <td><a href='https://github.com/hyunwoome'>임현우</a></td>
+        
+    
+</table>
+
+
 ## Chapter 01. `반복`
 
 연습 문제 11번. 
