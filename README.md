@@ -51,3 +51,37 @@ class YMD {
 - n일 앞의 날짜를 반환 YMD before(int n)
 
 ---
+
+## Chapter 04-1. `스택`
+
+연습 문제 02번. 
+
+```
+public class Gstack<E> {
+  private int max;   // 스택 용량
+  private int ptr;   // 스택 포인터
+  private E [] stk;  // 스택 본체
+}
+```
+
+` 임의의 객체형 데이터를 쌓을 수 있는 제네릭 스택 클래스 Gstack<E>를 작성하세요.`
+
+---
+
+## Chapter 04-2. `큐`
+
+연습 문제 06번. 
+
+```
+public class Gqueue<E> {
+  private int max;   // 큐의 용량
+  private int num;   // 현재 데이터 수
+  private int front;  // 프런트 요소 커서
+  private int rear;  // 리어요소 커서
+  private E[] que;   // 큐의 본체
+}
+```
+
+` 임의의 객체형 데이터를 쌓아 놓을 수 있는 제네릭 큐 클래스 Gqueue<E>를 작성하세요.`
+
+---
